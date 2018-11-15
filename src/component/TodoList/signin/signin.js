@@ -1,6 +1,18 @@
 import React from 'react';
 import './signin.css'
 
+const submitButton = () => {
+    return(
+        <input className='pa2 ma2 mt3 w-30 ba br2 bg-dark-gray white dim tc pointer' type='submit' name='submit' value='Submit'/>
+    )
+}
+
+const registerButton = () => {
+    return(
+        <input className='pa2 ma2 mt3 w-30 ba br2 bg-dark-gray white dim tc pointer' type='submit' name='Register' value='Register'/>
+    )
+} 
+
 export const SignIn = () => {
     return(
         <div className='flex justify-center items-center'>
@@ -11,8 +23,8 @@ export const SignIn = () => {
                 <p>Password</p>
                 <input type='password' name='password' placeholder='Enter Password'/>
                 <div className='flex justify-center '>
-                    <input className='pa2 ma2 mt3 w-30 ba br2 bg-dark-gray white dim tc pointer' type='submit' name='submit' value='Submit'/>
-                    <input className='pa2 ma2 mt3 w-30 ba br2 bg-dark-gray white dim tc pointer' type='submit' name='Register' value='Register'/>
+                    {submitButton()}
+                    {registerButton()}
                 </div>
             </div>
         </div>
@@ -38,7 +50,7 @@ export const Register = () => {
                     alert('password is not same')
                     } */}
                 <div className='flex justify-center '>
-                    <input className='pa2 ma2 mt3 w-30 ba br2 bg-dark-gray white dim tc pointer' type='submit' name='submit' value='Submit'/>
+                    {submitButton()}
                 </div>
 
             </div>

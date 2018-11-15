@@ -1,13 +1,13 @@
 import React from 'react';
 import {BackButton,NextButton,CancelButton} from './button';
 
-export const Todo = ({state}) => {
+export const Do = ({state}) => {
     const {items} = state;
     
-    const filter = items.filter(item => item.status === 'TODO')
+    const filter = items.filter(item => item.status === 'DO')
     // console.log(filter)
     return(
-        <div className = 'mt4 mb4 ma3 w-third'>
+        <div className = 'mt4 mb4 w-third ma3'>
             <div className='ba br2 pa2'>
                 <div>
                     <h3 className = 'tc'>Todo</h3>
@@ -33,6 +33,7 @@ class TodoList extends React.Component {
                     </div>
                     <div className = 'flex justify-end ma2 w-100'>
                         <NextButton/>
+                        <BackButton/>
                         <CancelButton/>
                     </div>
                 </div>
