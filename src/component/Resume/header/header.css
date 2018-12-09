@@ -1,7 +1,7 @@
-.color {
-    background-color:#36353a; 
+.bg-color{
+    background-color: black;
 }
 
-.text-color {
-    color: lightgreen;
+.text-color{
+    color: white;
 }
