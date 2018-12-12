@@ -6,7 +6,7 @@ const projectconstant = {
     roboname : 'Robofriends',
     robogit : 'https://github.com/fang-tanbamrung/robofriends',
     roboview : 'https://fang-tanbamrung.github.io/robofriends',
-    robocontent : 'Search name of Robots and then display Application.',
+    robocontent : 'Application will search name of Robots and then display robots.',
     robopic : robofriends,
 
     facename : 'Face Recognition Web App',

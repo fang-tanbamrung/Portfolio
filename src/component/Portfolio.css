@@ -1,0 +1,124 @@
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+  .banner{
+      margin-top: 350px;
+      margin-bottom: 375px;
+  }
+
+  
+.btn{
+    border-radius: 5px;
+    width: 7rem;
+    height: 2rem;
+    background-color: #333;
+    color:white;
+    cursor:pointer;
+    border-color:rgb(162, 162, 248);
+    
+}
+  
+.btn:hover{
+    background-color: black;
+    box-shadow: 0px 0px 10px 2px white;
+}
+
+.view{
+    top: 0;
+    width:100%;
+    height: 400px;
+    position: absolute;
+    
+}
+
+.view .animate:nth-child(1){ 
+    top:400px;
+    display: flex;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 60px darkcyan, inset 0 0 60px darkcyan;
+    animation: movez 3s infinite linear alternate;
+}
+
+.view .animate:nth-child(2){ 
+    top:500px;
+    display: flex;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 60px crimson, inset 0 0 60px crimson;
+    animation: movez 2s  infinite linear;
+}
+
+.view .animate:nth-child(3){
+    top:400px;
+    display: flex;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 60px yellowgreen, inset 0 0 60px yellowgreen;
+    animation: movex 3s infinite linear;
+}
+
+
+@keyframes movez {
+    0% {
+      -webkit-transform: rotateZ(0deg) translate3d(200px, 0, 0);
+              transform: rotateZ(0deg) translate3d(200px, 0, 0);
+    }
+    100% {
+      -webkit-transform: rotateZ(360deg) translate3d(200px, 0, 0);
+              transform: rotateZ(360deg) translate3d(200px, 0, 0);
+    }
+  }
+
+  @keyframes movex {
+    0%,100% {
+      -webkit-transform: rotateY(0deg) translate3d(-100%, 0, 0);
+              transform: rotateY(0deg) translate3d(-100%, 0, 0);
+    }
+    25% {
+      -webkit-transform: rotateY(360deg) translate3d(100%, 0, 0);
+              transform: rotateY(360deg) translate3d(100%, 0, 0);
+    }
+    50%{
+      -webkit-transform: rotateX(0deg) translate3d(0, -100%, 0);
+              transform: rotateX(0deg) translate3d(0, -100%, 0);
+    }
+    75%{
+      -webkit-transform: rotateX(360deg) translate3d(0, 100%, 0);
+              transform: rotateX(360deg) translate3d(0, 100%, 0);
+    }
+  }
+
+  a:hover button .up {
+      animation:up 1s infinite linear;
+  }
+  
+  @keyframes up {
+      0%,100%{transform: translate3d(0,10px,0)}
+      50%{transform: translate3d(0,-7px,0)}
+  }
+
+  a:hover .spin {
+      animation: spin 0.5s 2 linear;
+  }
+  @keyframes spin {
+      0%{transform: rotateZ(0deg)}
+      100% {transform: rotateZ(360deg)}
+  }
+
+
