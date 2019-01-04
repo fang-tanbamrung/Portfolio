@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/todo.60d3ccd0.PNG"
   },
   {
-    "revision": "2c1ceaca87cdc94c3f79",
-    "url": "/Portfolio/static/css/main.9c309b6e.chunk.css"
+    "revision": "a3e054d7f5763e650247",
+    "url": "/Portfolio/static/css/main.27944a0f.chunk.css"
   },
   {
     "revision": "d638bd34b425dec39792d4a81189eddf",
     "url": "/Portfolio/static/media/express.d638bd34.png"
   },
   {
-    "revision": "031ce7bff9fcb0420b05",
-    "url": "/Portfolio/static/js/1.031ce7bf.chunk.js"
+    "revision": "3f3becc85b8525d22336",
+    "url": "/Portfolio/static/js/1.3f3becc8.chunk.js"
   },
   {
     "revision": "3b96116072eb85f5a3a2",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/facerecog.ec8737a6.PNG"
   },
   {
-    "revision": "2c1ceaca87cdc94c3f79",
-    "url": "/Portfolio/static/js/main.2c1ceaca.chunk.js"
+    "revision": "a3e054d7f5763e650247",
+    "url": "/Portfolio/static/js/main.a3e054d7.chunk.js"
   },
   {
     "revision": "b1628428af58e40f30bc57c8bb9bc669",
@@ -68,11 +68,11 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/redux.b882387a.png"
   },
   {
-    "revision": "031ce7bff9fcb0420b05",
-    "url": "/Portfolio/static/css/1.f5a66771.chunk.css"
+    "revision": "3f3becc85b8525d22336",
+    "url": "/Portfolio/static/css/1.b6a4f3df.chunk.css"
   },
   {
-    "revision": "e87f3fc5a83c6b9e737dc9fa2e13cf0c",
+    "revision": "f010b0d32e3eb4f749625555d9a1765f",
     "url": "/Portfolio/index.html"
   }
 ];
