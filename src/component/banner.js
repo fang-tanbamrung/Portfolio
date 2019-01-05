@@ -12,7 +12,7 @@ const Banner = () => {
                     </div>
                     <div className='tc'>
                         <h1 className=''>
-                            {'Position : Front-end Developer'}
+                            {'Position : React Front-end Developer'}
                         </h1>
                         <div></div>
                     </div>

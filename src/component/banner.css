@@ -16,12 +16,15 @@
 
 .position{
     overflow: hidden;
-    background: linear-gradient(90deg, rgb(29, 29, 29), #fff, rgb(29, 29, 29));
+    background: linear-gradient(90deg, rgb(29, 29, 29),crimson, rgb(29, 29, 29));
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 2s linear alternate infinite;
-    background-clip: text;
+    animation: animate 3s linear alternate infinite;
     -webkit-text-fill-color: transparent;
+    color: transparent;    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-animation: animate 3s linear alternate infinite;
 }
 
 @keyframes animate{
@@ -33,3 +36,12 @@
     }
 }
 
+
+@-webkit-keyframes animate{
+    0%{
+        background-position: -500%;
+    }
+    100%{
+        background-position: 500%;
+    }
+}

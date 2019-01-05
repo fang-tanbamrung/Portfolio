@@ -8,11 +8,9 @@ header{
 
 
 .banner{
-    margin-top: 35%;
-    margin-bottom: 50%;
+    margin-top: 35vh;
+    margin-bottom: 40vh;
 }
-
-  
 
   a:hover button .up {
       animation:up 1s infinite linear;

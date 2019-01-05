@@ -15,7 +15,9 @@ class Resume extends React.Component {
                 <header>
                     <Header/>
                 </header>
-                <Banner/>
+                <div>
+                    <Banner/>
+                </div>
                 <div className='ml3'>
                     <Skills className='head'/>
                     <Projects className='head'/>
