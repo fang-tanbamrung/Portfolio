@@ -15,7 +15,12 @@ export const Footer = () => {
                         </button>
                     </a>
                 </div>
-                <Credits/>
+                <div className = '  '>
+                    <div className = 'w-50-l'>
+                        <Credits/>
+                    </div>
+                </div>
+                
             </div>
         </div>
     )

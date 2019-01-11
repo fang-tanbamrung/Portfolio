@@ -18,11 +18,13 @@ class Resume extends React.Component {
                 <div>
                     <Banner/>
                 </div>
-                <div className='ml3'>
-                    <Skills className='head'/>
-                    <Projects className='head'/>
-                    <Education className='head'/>
-                    <Contact className='head'/>
+                <div className='ml3 flex justify-center'>
+                    <div className = 'w-50-l'>
+                        <Skills className='head'/>
+                        <Projects className='head'/>
+                        <Education className='head'/>
+                        <Contact className='head'/>
+                    </div>
                 </div>
                 <footer>
                     <Footer/>

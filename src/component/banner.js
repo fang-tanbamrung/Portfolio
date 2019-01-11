@@ -6,16 +6,13 @@ const Banner = () => {
     return (
         <div className = ''>
             <div className='banner'>
-                <div className = 'position'>
-                    <div className='tc f4'>
-                        {'seeks the'}
-                    </div>
+                <div className = 'toptext'>
                     <div className='tc'>
-                        <h1 className=''>
-                            {'Position : React Front-end Developer'}
+                        <h1>
+                        {'Watcharakorn Tanbamrung'}
                         </h1>
-                        <div></div>
                     </div>
+                    
                 </div>
                 <div className='flex justify-center'>
                         <a href='#skills' className=' btn white no-underline'>

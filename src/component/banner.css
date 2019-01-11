@@ -14,9 +14,10 @@
 }
 
 
-.position{
+.toptext{
+    font-size: 1.5rem;
     overflow: hidden;
-    background: linear-gradient(90deg, rgb(29, 29, 29),crimson, rgb(29, 29, 29));
+    background: linear-gradient(90deg, rgb(29, 29, 29), white , rgb(29, 29, 29));
     background-repeat: no-repeat;
     background-size: 80%;
     animation: animate 3s linear alternate infinite;
