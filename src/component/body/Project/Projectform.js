@@ -4,7 +4,7 @@ import './Projectform.css';
 
 const Projectform = ({content, gitlink, viewlink, pic, name}) => {
     return(
-        <div className='ma2 flex w-50-m w-25-l'>
+        <div className='ma2 flex w-50-m w-40-l'>
             <div className='black hover-bg-white-30 ba br2 bg-white-70 pa2 container'>
                 <img alt={name} className='br2 image' src={pic} width='500px' height='auto'/>
                 <div className='pointer ma2 tc f4'>

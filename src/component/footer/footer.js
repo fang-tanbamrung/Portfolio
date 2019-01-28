@@ -15,7 +15,7 @@ export const Footer = () => {
                         </button>
                     </a>
                 </div>
-                <div className = '  '>
+                <div className = 'flex justify-center'>
                     <div className = 'w-50-l'>
                         <Credits/>
                     </div>

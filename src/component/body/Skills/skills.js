@@ -23,7 +23,7 @@ export const Skills = () => {
                     <Skillbar percent='60%' pic={reduxLogo} name={'Redux'}/>
                     <Skillbar percent='50%' pic={nodeLogo} name={'Node.js'}/>
                     <Skillbar percent='50%' pic={expressLogo} name={'expressjs'}/>
-                    <Skillbar percent='70%' pic={postgresLogo} name={'PostgreSQL'}/>
+                    <Skillbar percent='65%' pic={postgresLogo} name={'PostgreSQL'}/>
                     <Skillbar percent='30%' pic={mongoLogo} name={'MongoDB'}/>
                 </div>
             </div>
